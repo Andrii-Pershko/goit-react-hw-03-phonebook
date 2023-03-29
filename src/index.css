@@ -1,4 +1,6 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
 
 body {
   margin: 0;
@@ -7,9 +9,78 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Tenor Sans', sans-serif;
+  padding-bottom: 25px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+[id='root'] {
+  width: 500px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 10px;
+
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+
+button {
+  background-color: rgb(85, 207, 166);
+  padding: 5px 15px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+}
+
+button:hover,
+button:focus {
+  background-color: #afafaf;
+}
+
+button:active {
+  background-color: black;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  align-items: center;
+  font-size: 18px;
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }

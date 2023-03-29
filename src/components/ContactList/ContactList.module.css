@@ -1,0 +1,9 @@
+.name {
+    width: calc(100%/2);
+    text-align: left;
+}
+
+.number {
+    width: calc(100%/3);
+    text-align: left;
+}
